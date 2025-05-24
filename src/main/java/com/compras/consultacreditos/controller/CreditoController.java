@@ -20,7 +20,7 @@ import java.util.List;
 @RestController
 @RequestMapping("creditos")
 @RequiredArgsConstructor
-@Tag(name = "Autor", description = "Operações relacionadas aos creditos")
+@Tag(name = "creditos", description = "Operações relacionadas aos creditos")
 public class CreditoController {
 
     private final CreditoService creditoService;
